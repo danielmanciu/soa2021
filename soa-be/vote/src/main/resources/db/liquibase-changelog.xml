@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="0" author="Daniel">
+        <createTable tableName="QUESTIONS">
+            <column name="QUESTION_ID" type="number(50)"/>
+            <column name="TEXT" type="varchar(50000)"/>
+        </createTable>
+        <createSequence sequenceName="SEQ_QUESTION" minValue="1" maxValue="999999" incrementBy="1" startValue="1"/>
+        <addPrimaryKey tableName="QUESTIONS" columnNames="QUESTION_ID" constraintName="PK_QUESTION_ID"/>
+    </changeSet>
+
+    <changeSet id="1" author="Daniel">
+        <createTable tableName="ANSWERS">
+            <column name="ANSWER_ID" type="number(50)"/>
+            <column name="TEXT" type="varchar(50000)"/>
+            <column name="VOTES" type="number(50)"/>
+            <column name="QUESTION_ID" type="number(50)"/>
+        </createTable>
+        <createSequence sequenceName="SEQ_ANSWER" minValue="1" maxValue="999999" incrementBy="1" startValue="1"/>
+        <addForeignKeyConstraint baseTableName="ANSWERS" baseColumnNames="QUESTION_ID" constraintName="FK_ANSWER"
+                                 referencedTableName="QUESTIONS"
+                                 referencedColumnNames="QUESTION_ID"/>
+    </changeSet>
+
+    <changeSet id="3" author="Daniel">
+        <createTable tableName="VOTES">
+            <column name="USER_ID" type="number(50)"/>
+            <column name="QUESTION_ID" type="number(50)"/>
+            <column name="ANSWER_ID" type="number(50)"/>
+        </createTable>
+        <createSequence sequenceName="SEQ_VOTE" minValue="1" maxValue="999999" incrementBy="1" startValue="1"/>
+        <addForeignKeyConstraint baseTableName="VOTES" baseColumnNames="QUESTION_ID" constraintName="FK_VOTE_QUESTION"
+                                 referencedTableName="QUESTIONS"
+                                 referencedColumnNames="QUESTION_ID"/>
+        <addPrimaryKey tableName="VOTES" columnNames="USER_ID,QUESTION_ID" constraintName="PK_VOTES_ID"/>
+    </changeSet>
+
+</databaseChangeLog>

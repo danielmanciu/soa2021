@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="VoteButton">
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:background">@drawable/esbg_button</item>
+    </style>
+
+    <style name="VoteButton.Square">
+        <item name="android:layout_height">@dimen/button_size_square</item>
+        <item name="android:layout_width">@dimen/button_size_square</item>
+    </style>
+
+    <style name="VoteButton.Small">
+        <item name="android:layout_height">@dimen/button_height_small</item>
+        <item name="android:layout_width">@dimen/button_width_short</item>
+    </style>
+
+    <style name="VoteButton.Width1">
+        <item name="android:layout_width">@dimen/button_width_short</item>
+    </style>
+
+    <style name="VoteButton.Width2">
+        <item name="android:layout_width">@dimen/button_width_long</item>
+    </style>
+
+</resources>

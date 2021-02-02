@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/takenPhotoImageView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:scaleX="@dimen/take_photo_scale_factor"-->
+<!--        android:scaleY="@dimen/take_photo_scale_factor"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:contentDescription="@null"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/nameTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="@dimen/layout_margin_horizontal"-->
+<!--        android:layout_marginBottom="@dimen/button_margin_bottom"-->
+<!--        android:text="@string/soa_name"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/registerButton"-->
+<!--        app:layout_constraintEnd_toStartOf="@id/nameEditText"-->
+<!--        app:layout_constraintHorizontal_chainStyle="packed"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/nameEditText"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="@dimen/edit_text_margin_start"-->
+<!--        android:layout_marginEnd="@dimen/layout_margin_horizontal"-->
+<!--        android:importantForAutofill="no"-->
+<!--        android:inputType="textCapWords"-->
+<!--        android:maxLines="1"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/nameTextView"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@id/nameTextView"-->
+<!--        app:layout_constraintTop_toTopOf="@id/nameTextView"-->
+<!--        tools:ignore="LabelFor" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/registerButton"-->
+<!--        style="@style/VoteButton.Width1"-->
+<!--        android:layout_marginBottom="@dimen/button_margin_bottom"-->
+<!--        android:text="@string/soa_register"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_chainStyle="spread"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--    <com.soa.utils.ui.OverlayLayout-->
+<!--        android:id="@+id/registrationOverlay"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:visibility="gone" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Vote!</string>
+
+    <!-- General -->
+    <string name="soa_logo_app_name">Emotion Scanner</string>
+    <string name="soa_yes">Yes</string>
+    <string name="soa_no">No</string>
+    <string name="soa_ok">OK</string>
+    <string name="soa_could_not_recognize_emotions">Could not recognize emotions of this user.</string>
+
+    <!-- Splash -->
+    <string name="soa_please_wait">Trying to log in. Please wait.</string>
+
+
+    <!-- Login -->
+    <string name="soa_register">Register</string>
+    <string name="soa_login">Log in</string>
+    <string name="soa_name">Name: </string>
+    <string name="soa_loggin_in">Logging in</string>
+    <string name="soa_alert_is_this">Is this %s?</string>
+    <string name="soa_alert_change_user">Are you sure you want to change user?</string>
+    <string name="soa_trying_to_recognize_face">Trying to recognize face…</string>
+
+    <!-- Registration -->
+    <string name="soa_name_validation_text">Name can\'t be empty.</string>
+    <string name="soa_pwd_validation_text">Password can\'t be empty.</string>
+    <string name="soa_alert_registered_new_face">Registered new face. Welcome %s!</string>
+
+    <!-- Vote -->
+    <string name="soa_start_emotion_recognition">Start emotion recognition</string>
+    <string name="soa_stop_emotion_recognition">Stop emotion recognition</string>
+    <string name="soa_log_out">Log out</string>
+    <string name="soa_loading_question">Loading question</string>
+    <string name="soa_loading_vote">Loading vote</string>
+    <string name="soa_results">Results</string>
+    <string name="soa_percentage">%d %%</string>
+
+</resources>

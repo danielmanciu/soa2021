@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">@color/black</color>
+
+    <color name="light_yellow">#FFFFE0</color>
+    <color name="orange">#FFA500</color>
+    <color name="gold">#FFD700</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color_primary_light">@color/orange</color>
+    <color name="color_primary_dark">@color/light_yellow</color>
+    <color name="color_primary_variant_light">@color/gold</color>
+    <color name="color_primary_variant_dark">@color/gold</color>
+
+    <color name="color_secondary_light">@color/teal_200</color>
+    <color name="color_secondary_dark">@color/teal_200</color>
+    <color name="color_secondary_variant_light">@color/teal_700</color>
+    <color name="color_secondary_variant_dark">@color/teal_200</color>
+
+</resources>

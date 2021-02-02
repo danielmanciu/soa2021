@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Components -->
+    <dimen name="zero">0dp</dimen>
+    <dimen name="logo_height">76dp</dimen>
+    <dimen name="logo_underline_width">2dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="button_size_square">40dp</dimen>
+    <dimen name="button_height_small">30dp</dimen>
+    <dimen name="button_width_short">148dp</dimen>
+    <dimen name="button_width_long">296dp</dimen>
+    <dimen name="button_radius">50dp</dimen>
+    <dimen name="edit_text_margin_start">20dp</dimen>
+    <dimen name="edit_text_margin_vertical">20dp</dimen>
+    <dimen name="logo_text_size">30sp</dimen>
+
+    <!-- Facial login -->
+    <dimen name="button_margin_bottom">@dimen/layout_margin_vertical</dimen>
+
+    <!-- Registration -->
+    <dimen name="layout_margin_horizontal">50dp</dimen>
+    <dimen name="layout_margin_vertical">24dp</dimen>
+
+    <!-- Vote -->
+    <dimen name="user_name_text_size">30sp</dimen>
+
+    <!-- Results -->
+    <dimen name="result_height">30dp</dimen>
+    <dimen name="results_container_margin_vertical">50dp</dimen>
+    <dimen name="results_text_margin_top">80dp</dimen>
+    <dimen name="result_text_size">30sp</dimen>
+    <dimen name="result_item_text_size">20sp</dimen>
+
+</resources>
